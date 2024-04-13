@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maçãs</title>
+</head>
+
+<body>
+
+    <script>
+        let valorMaca = 3.50;
+
+        let qtdMaca = parseInt(prompt("Digite a quantidade de maçãs"));
+        let total = valorMaca * qtdMaca;
+
+        if (qtdMaca > 12) {
+            valorMaca = 2.50;
+            total = valorMaca * qtdMaca; // Recalcular o total com o novo valor de valorMaca
+            alert(`Total: ${total}`);
+        } else {
+            alert(`Total: ${total}`);
+        }
+
+    </script>
+
+</body>
+
+</html>
